@@ -1,0 +1,21 @@
+.sidebar-toggle {
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: rgb(213, 229, 213);
+  cursor: pointer;
+}
+
+.sidebar-toggle:hover {
+  color: var(--clr-primary-7);
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
